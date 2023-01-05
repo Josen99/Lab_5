@@ -3,8 +3,8 @@
 name: Docker Image CI
 
 on:
-  release:
-    types: [push]
+  push:
+    branches: ['main']
 
 # Customization: we add these env variables
 env:
